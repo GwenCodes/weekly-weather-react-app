@@ -1,9 +1,7 @@
-import React, { useState } from "react";
-import axios from "axios";
+import React from "react";
+import "./Weather.css";
 
 export default function Weather(props) {
-  const [city, setCity] = useState(props.defaultCity);
-
   return (
     <div className="Weather">
       <form>
@@ -13,18 +11,33 @@ export default function Weather(props) {
               type="search"
               placeholder="Enter a city..."
               className="form-control"
-              autoFocus="on"
             />
           </div>
           <div className="col-3">
-            <input
-              type="submit"
-              value="Search"
-              className="btn btn-primary w-100"
-            />
+            <input type="submit" value="Search" className="btn btn-primary" />
           </div>
         </div>
       </form>
+      <h1>New York</h1>
+      <ul>
+        <li>Monday 7:00</li>
+        <li>Sunny</li>
+      </ul>
+      <div className="row">
+        <div className="col-6">
+          <img
+            src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+            alt="sunny"
+          />
+          <span className="temperature">25</span>°C
+        </div>
+        <div className="col-6">
+          <ul>
+            <li>Humidity: 60%</li>
+            <li>Wind: 10 km/h</li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 }
