@@ -11,6 +11,7 @@ export default function Weather(props) {
               type="search"
               placeholder="Enter a city..."
               className="form-control"
+              autoFocus="on"
             />
           </div>
           <div className="col-3">
@@ -23,13 +24,17 @@ export default function Weather(props) {
         <li>Monday 7:00</li>
         <li>Sunny</li>
       </ul>
-      <div className="row">
+      <div className="row" mt-4 align-items-center>
         <div className="col-6">
-          <img
-            src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
-            alt="sunny"
-          />
-          <span className="temperature">25</span>°C
+          <div className="clearfix">
+            <img
+              src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+              alt="sunny"
+              className="float-left"
+            />
+            <span className="temperature">25</span>
+            <span className="unit">°C</span>
+          </div>
         </div>
         <div className="col-6">
           <ul>
