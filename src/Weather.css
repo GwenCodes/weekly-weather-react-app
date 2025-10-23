@@ -7,7 +7,7 @@
 }
 
 .Weather h1 {
-  font-size: 40px;
+  font-size: 36px;
   font-weight: 100;
   margin: 20px 0 0 0;
   line-height: 60px;
@@ -29,7 +29,7 @@
   margin-bottom: 20px;
 }
 .Weather canvas {
-  height: 75px;
+  height: 60px;
   display: inline-block;
   margin-right: 10px;
 }
