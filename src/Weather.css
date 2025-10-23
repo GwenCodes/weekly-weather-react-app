@@ -23,12 +23,13 @@
   font-weight: 100;
   line-height: 19px;
   list-style: none;
+  margin-top: 5px;
 }
 .Weather form {
   margin-bottom: 20px;
 }
-.Weather img {
-  height: 64px;
+.Weather canvas {
+  height: 75px;
   display: inline-block;
   margin-right: 10px;
 }
