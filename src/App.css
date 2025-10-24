@@ -10,10 +10,11 @@
   text-align: center;
 }
 .App footer a {
-  color: #92028f;
+  color: #234668;
   text-decoration: none;
   font-weight: bold;
 }
-.App footer a:hover {
-  text-decoration: limegreen;
+footer a:hover {
+  color: limegreen;
+  transition: color 0.3s ease;
 }
