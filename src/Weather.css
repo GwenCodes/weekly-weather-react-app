@@ -32,6 +32,7 @@
   font-size: 54px;
   font-weight: 100;
   line-height: 60px;
+  margin-left: 12px;
 }
 .Weather .unit {
   color: rgb(109, 109, 109);
