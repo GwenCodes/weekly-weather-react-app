@@ -10,9 +10,19 @@ export default function App() {
       </div>
       <footer>
         This project was coded by{" "}
-        <a href="https://github.com/GwenCodes">Gwendolyn Munoz</a>, open-sourced
-        on Github and hosted on{" "}
-        <a href="https://app.netlify.com/teams/gwencodes/projects">Netlify</a>
+        <a
+          href="https://github.com/GwenCodes"
+          target="_blank"
+          rel="noopener noreferrer">
+          Gwendolyn Munoz
+        </a>
+        , open-sourced on Github and hosted on{" "}
+        <a
+          href="https://app.netlify.com/teams/gwencodes/projects"
+          target="_blank"
+          rel="noopener noreferrer">
+          Netlify
+        </a>
       </footer>
     </div>
   );
