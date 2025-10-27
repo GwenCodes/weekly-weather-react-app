@@ -28,11 +28,6 @@
 .Weather form {
   margin-bottom: 20px;
 }
-.Weather canvas {
-  height: 60px;
-  display: inline-block;
-  margin-right: 10px;
-}
 .Weather .temperature {
   font-size: 54px;
   font-weight: 100;
