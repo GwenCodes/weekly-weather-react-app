@@ -2,7 +2,7 @@
   text-align: center;
 }
 .WeatherForecast-temperature-min {
-  opacity: 0.6;
+  opacity: 0.8;
   margin-left: 10px;
 }
 .WeatherForecast .col {
@@ -17,4 +17,14 @@
   height: 30px;
   margin-top: 5px;
   margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  .WeatherForecast .col {
+    padding: 0;
+  }
+  .row > .col-6 {
+    width: 50% !important;
+    max-width: 50% !important;
+  }
 }
